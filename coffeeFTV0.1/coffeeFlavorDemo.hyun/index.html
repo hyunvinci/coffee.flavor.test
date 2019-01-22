@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Coffee Flavor Wheel</title>
+
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+
+<h1>Coffee Flavour Wheel Demo</h1>
+
+<!-- sunburt graph below -->
+<div id="sunburst"><img src=""></div> <!-- loading image -->
+
+<!-- html below -->
+
+
+<div id="tooltip" class=hidden>
+    <p><strong>Important Label Heading</strong>
+    </p>
+    <p><span id="value">100</span>%</p>
+</div>
+
+<h2>Credits</h2>
+<p>The original coffee flavour wheel was created by the <a href="http://www.scaa.org/">Specialty Coffee Association of
+    America</a> in poster form but it appears in various places on the Web. <a
+        href="http://www.gourmet-coffee.com/how-to-cup-coffee.html">Rogers Gourmet Coffee &amp; Tea Market</a> seems to
+    have the most information about its origin:
+<blockquote>
+    …a flavor wheel created in 1997 by the Specialty Coffee Association of America, the Colombian Coffee Federation, and
+    Jean Lenoir. It's part of the poster called, "The Coffee Tasters' Flavor Wheel" that you can buy on the SCAA
+    website.
+</blockquote>
+<p>Built with <a href="https://d3js.org">D3.js</a>.
+    Sunburst zooming based on an <a href="https://bl.ocks.org/mbostock/4348373">example</a> by <a
+            href="https://bost.ocks.org/mike">Mike Bostock</a>.</p>
+
+<script src='https://d3js.org/d3.v3.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+<script src='https://www.jasondavies.com/coffee-wheel/wheel.json'></script>
+
+
+<script src="js/index.js"></script>
+
+
+</body>
+
+</html>
